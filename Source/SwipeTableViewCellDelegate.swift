@@ -69,7 +69,7 @@ public protocol SwipeTableViewCellDelegate: class {
 
      - parameter indexPath: The index path of the row.
     */
-    func tableView(_ tableView: UITableView, isGoingToDeleteRowAt indexPath: IndexPath?)
+    func tableView(_ tableView: UITableView, isGoingToDeleteRowAt indexPath: IndexPath)
 
     /**
      Asks the delegate for visibile rectangle of the table view, which is used to ensure swipe actions are vertically centered within the visible portion of the cell.
